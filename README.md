@@ -2,6 +2,7 @@
 
 
 Instructions
+------------
 The instructions for this assignment are divided into three parts:
 
 
@@ -16,12 +17,14 @@ Submission
 
 
 Part  1: Scraping
+-----------------
 Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 Create a Jupyter Notebook file called mission_to_mars.ipynb. Use this file to complete all your scraping and analysis tasks. The following information outlines what you need to scrape.
 
 
 NASA Mars News
+-------------
 
 Scrape the Mars News Site and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
 
@@ -30,6 +33,7 @@ Scrape the Mars News Site and collect the latest News Title and Paragraph Text. 
 
 
 JPL Mars Space Images—Featured Image
+------------------------------------
 
 
 Visit the URL for the Featured Space Image site here.
@@ -48,6 +52,7 @@ Be sure to save a complete URL string for this image.
 
 
 Mars Facts
+----------
 
 
 Visit the Mars Facts webpage and use Pandas to scrape the table containing facts about the planet including diameter, mass, etc.
@@ -61,6 +66,7 @@ Use Pandas to convert the data to a HTML table string.
 
 
 Mars Hemispheres
+---------------
 
 
 Visit the astrogeology site to obtain high-resolution images for each hemisphere of Mars.
@@ -80,6 +86,7 @@ Append the dictionary with the image URL string and the hemisphere title to a li
 
 
 Part 2: MongoDB and Flask Application
+-------------------------------------
 
 
 Use MongoDB with Flask templating to create a new HTML page that displays all the information that was scraped from the URLs above.
